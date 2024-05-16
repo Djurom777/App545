@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="22G513" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="ActivitiesModel" representedClassName="ActivitiesModel" syncable="YES" codeGenerationType="class">
+        <attribute name="actDescription" optional="YES" attributeType="String"/>
+        <attribute name="actName" optional="YES" attributeType="String"/>
+        <attribute name="actPhoto" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="GoalsModel" representedClassName="GoalsModel" syncable="YES" codeGenerationType="class">
+        <attribute name="goalDescription" optional="YES" attributeType="String"/>
+        <attribute name="goalEDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="goalItem" optional="YES" attributeType="String"/>
+        <attribute name="goalName" optional="YES" attributeType="String"/>
+        <attribute name="goalSDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="goalStatus" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ItemsModel" representedClassName="ItemsModel" syncable="YES" codeGenerationType="class">
+        <attribute name="itemCurrentAct" optional="YES" attributeType="String"/>
+        <attribute name="itemDescription" optional="YES" attributeType="String"/>
+        <attribute name="itemName" optional="YES" attributeType="String"/>
+    </entity>
+</model>
